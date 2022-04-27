@@ -97,7 +97,7 @@ while True:
           print(f"\nSent an email to the cooresponding account with the username {username.capitalize()}")
           letters = string.ascii_lowercase
           ''.join(random.choice(letters) for i in range(0, 8))
-          givenpass = ''.join(random.SystemRandom().choice(string.ascii_uppercase + string.digits) for _ in range(10))
+          givenpass = ''.join(random.SystemRandom().choice(string.ascii_letters + string.digits) for _ in range(20))
           html = f"""\
             <html>
               <head>
@@ -107,7 +107,7 @@ while True:
               </head>
               <body style=\"background:whitesmoke;font-family:Roboto;color:#000000;border-radius: 20px;height:100%;width:100%;text-align:center\">
                 <h1>Hello <strong>{username}</strong>!</h1>
-                <h3>Your 10 character code for your password reset is <i>{givenpass}</i>!</h3>
+                <h3>Your 20 character code for your password reset is <i>{givenpass}</i>!</h3>
                 <br>
                 <h4>If this wasn't you, don't worry! Your account is completely safe.</h4>
               </body>
@@ -130,7 +130,7 @@ while True:
           emailthing = len(theiremail) - 5
           email = "@" + theiremail.split("@", 1)[1]
           
-          confirm = input(f"\nA 10 digit string was sent to your email '{theiremail[0 : 5]}{blur}{email}', please paste it below to change your password.\n")
+          confirm = input(f"\nA 20 digit string was sent to your email '{theiremail[0 : 5]}{blur}{email}', please paste it below to change your password.\n")
           if confirm == givenpass:
             newpass = input("\nCorrect! What do you want your new password to be?\n")
             with open("data.json", "w") as f:
