@@ -1,26 +1,12 @@
 {
-  "idk": {
-    "username": "idk",
-    "password": "$2b$12$d3buLSleE/xV6fbduK3TD.aIWdzQQ1rklLTxmFbaMOgdPVPJQ2eSK"
-  },
   "ks": {
     "username": "ks",
-    "password": "$2b$12$GwJk82bGYQxokaIh2AKfMuL7xGAjfWkLzL0ocK7oX15KsHV30LExe"
+    "password": "$2b$12$PKHs5qtp5HE7H.92d4wCDe2ZELimpam/NGURtwj5HeED6sIPojtu.",
+    "email": "xirede4914@richdn.com"
   },
   "css": {
     "username": "css",
-    "password": "$2b$12$0Rz/Y9N22WrelbYS52RnpeyvQdTiDJ5/NBHEg6ULAASXzdcQ88Jb6"
-  },
-  "enoki": {
-    "username": "enoki",
-    "password": "$2b$12$SB8bhj/MX1VZkC5gSB7wo.tdoWKSQdymg6l.T/yPcmrGmXe5G8W1S"
-  },
-  "gamer": {
-    "username": "gamer",
-    "password": "$2b$12$YixrTnJd3M9/9I4ww5Eqtu9O2MCrxwNPb5vhFzPYyIh9V4JlMOCCW"
-  },
-  "chad": {
-    "username": "chad",
-    "password": "$2b$12$lYBaDib9t.pxhIXtjxj1MOVxIeSfV9keroEbvbCV2Djd7DY0ZfS8i"
+    "password": "$2b$12$rthBVUz5fNQHTDQRYIcmvuW1IObgq8tWquaL2iA07LtKnKusDYYiu",
+    "email": "css@amogus.cloud"
   }
 }
